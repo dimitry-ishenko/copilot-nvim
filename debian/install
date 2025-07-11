@@ -1,0 +1,5 @@
+copilot/package.json usr/share/copilot-nvim/copilot
+copilot/js/api copilot/js/resources copilot/js/*.js copilot/js/*.wasm usr/share/copilot-nvim/copilot/js
+
+doc lua plugin usr/share/copilot-nvim
+debian/copilot.lua etc/skel/.config/nvim/plugin

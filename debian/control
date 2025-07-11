@@ -1,0 +1,24 @@
+Source: copilot-nvim
+Section: editors
+Priority: optional
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-vim-addon,
+Standards-Version: 4.6.2
+Homepage: https://github.com/zbirenbaum/copilot.lua
+Vcs-Browser: https://github.com/dimitry-ishenko/copilot-nvim
+Vcs-Git: https://github.com/dimitry-ishenko/copilot-nvim.git
+
+Package: copilot-nvim
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${vim-addon:Depends},
+ neovim (>= 0.10.0),
+ nodejs (>= 20),
+ ripgrep,
+Description: Lua replacement for github/copilot.vim
+ Fully featured & enhanced replacement for github/copilot.vim complete with API
+ for interacting with GitHub Copilot.

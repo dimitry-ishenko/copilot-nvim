@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/zbirenbaum/copilot.lua
+Upstream-Name: copilot.lua
+
+Files: *
+Copyright: 2022, Zach Birenbaum
+License: Expat
+
+Files: debian/*
+Copyright: 2025, Dimitry Ishenko <dimitry.ishenko@gmail.com>
+License: GPL-2+
