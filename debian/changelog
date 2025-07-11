@@ -1,5 +1,16 @@
-copilot-nvim (0.0-385-g3680-1) UNRELEASED; urgency=medium
+copilot-nvim (0.0-385-g3680-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 11 Jul 2025 15:09:52 -0400
+  [ github-actions[bot] ]
+  * feat: update to latest Copilot LSP
+
+  [ Alex Efros ]
+  * fix: call lsp.start after loading buffer (#508)
+  * fix: call should_attach on sign_in (#509)
+
+  [ github-actions[bot] ]
+  * feat: update to latest Copilot LSP
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 11 Jul 2025 17:37:00 -0400
