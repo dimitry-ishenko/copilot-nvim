@@ -1,3 +1,9 @@
+copilot-nvim (0.0-385-g3680-2) unstable; urgency=medium
+
+  * copilot.lua: disable by default
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Fri, 11 Jul 2025 21:14:38 -0400
+
 copilot-nvim (0.0-385-g3680-1) unstable; urgency=medium
 
   [ Dimitry Ishenko ]
